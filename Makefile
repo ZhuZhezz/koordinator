@@ -13,6 +13,7 @@ KOORDLET_IMG ?= "${REG}/${REG_NS}/koordlet:${GIT_BRANCH}-${GIT_COMMIT_ID}"
 KOORD_MANAGER_IMG ?= "${REG}/${REG_NS}/koord-manager:${GIT_BRANCH}-${GIT_COMMIT_ID}"
 KOORD_SCHEDULER_IMG ?= "${REG}/${REG_NS}/koord-scheduler:${GIT_BRANCH}-${GIT_COMMIT_ID}"
 KOORD_DESCHEDULER_IMG ?= "${REG}/${REG_NS}/koord-descheduler:${GIT_BRANCH}-${GIT_COMMIT_ID}"
+KOORD_DEVICE_DAEMON_IMG ?= "${REG}/${REG_NS}/koord-device-daemon:${GIT_BRANCH}-${GIT_COMMIT_ID}"
 
 # ENVTEST_K8S_VERSION refers to the version of kubebuilder assets to be downloaded by envtest binary.
 ENVTEST_K8S_VERSION = 1.28

@@ -1,4 +1,4 @@
-FROM ant-cnstack-registry.cn-hangzhou.cr.aliyuncs.com/base/golang:1.20 as build
+FROM golang:1.20 as build
 
 WORKDIR /go/src/github.com/koordinator-sh/koordinator
 
